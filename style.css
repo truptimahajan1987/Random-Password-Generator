@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-color: #002339;
+    color: #fff;
+}
+.container{
+    margin: 12%;
+    width: 700px;
+    /* max-width: 700px; */
+    border: 1px solid;
+    padding: 5%;
+
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+    
+}
+.container h1 span{
+    color:#019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;;
+
+}
+.display{
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+
+}
+.fa-copy{
+    color: green;
+    width: 30px;
+    cursor: pointer;
+    font-size: 26px;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.container button{
+    background-color: #019f55;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 16px 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .4); */
+}
